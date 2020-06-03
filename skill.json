@@ -1,0 +1,27 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "Alexa TypeScript, Express starter template",
+          "examplePhrases": [
+            "Alexa open starter"
+          ],
+          "name": "alexa-ts-express-starter",
+          "description": "A starter template for self-hosted Amazon Alexa Skill using TypeScript, NodeJS and ExpressJS."
+        }
+      },
+      "isAvailableWorldwide": true,
+      "category": "EDUCATION_AND_REFERENCE",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "dist"
+        }
+      }
+    },
+    "manifestVersion": "1.0"
+  }
+}
